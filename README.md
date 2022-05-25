@@ -3,7 +3,14 @@
 Store data using zero width spaces! Might be useful for discord bots.
 
 ---
+### Installation
+```
+npm i zwsp
+```
+
+---
 ### Usage
+
 Import the library:
 ```typescript
 import { encode, decode} from 'zwsp'; // typescript
