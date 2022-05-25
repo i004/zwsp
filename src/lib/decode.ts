@@ -17,8 +17,8 @@ function convertType(input: string, type: string): Types {
 
 /**
  * 
- * Decode data
- * @param {string} input Data to decode
+ * Decodes zwsp-encoded data
+ * @param {string} input ZWSP-encoded data to decode
  * @returns {Types}
  */
 export function decode(input: string): Types | null {
