@@ -1,8 +1,8 @@
 {
   "name": "zwsp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Store data using zero width spaces! Might be useful for discord bots.",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
