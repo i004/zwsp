@@ -35,7 +35,7 @@ tbh, I don't really know. This might be useful for discord bots that don't use a
 
 ![](https://i.imgur.com/YN3gjdM.png)
 
-It works because the characters this library uses are actually a zero-width spaces and they appear to be invisible. Users still can access the info you stored, but a regular user won't notice anything.
+It works because the characters this library uses are actually a zero-width spaces and are invisible. Users still can access the info you stored, but a regular user won't notice anything.
 
 ---
 ### Other examples
