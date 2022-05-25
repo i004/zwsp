@@ -2,5 +2,6 @@
     "compilerOptions": {
         "rootDir": "./src",
         "outDir": "./build"
-    }
+    },
+    "exclude": [ "examples" ]
 }
