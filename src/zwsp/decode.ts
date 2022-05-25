@@ -1,16 +1,15 @@
 import {
-    IDTypes,
+    Types,
     whitespaces,
-    validator,
-    typeMap
+    regex
 } from "./constants";
 
-function convertType(input: string, type: string): IDTypes {
-    if (type == typeMap.bigint)
+function convertType(input: string, type: string): Types {
+    if (type == Types.bigint)
         return BigInt(input);
-    else if (type == typeMap.boolean || type == typeMap.object)
+    else if (type == Types.boolean || type == Types.object)
         return JSON.parse(input);
-    else if (type == typeMap.number)
+    else if (type == Types.number)
         return parseFloat(input);
 
     return input.toString();
@@ -20,10 +19,10 @@ function convertType(input: string, type: string): IDTypes {
  * 
  * Decode data
  * @param {string} input Data to decode
- * @returns {IDTypes}
+ * @returns {Types}
  */
-export function decode(input: string): IDTypes | null {
-    const match = validator.exec(input);
+export function decode(input: string): Types | null {
+    const match = regex.exec(input);
 
     if (!match) return null;
 

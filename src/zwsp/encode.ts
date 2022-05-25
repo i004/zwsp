@@ -1,10 +1,9 @@
 import {
-    IDTypes,
-    typeMap,
+    Types,
     whitespaces
 } from "./constants";
 
-function parseType(input: IDTypes): [typeof input, string] {
+function parseType(input: Types): [typeof input, string] {
     if (typeof input == 'object')
         return [
             'object',
@@ -20,12 +19,12 @@ function parseType(input: IDTypes): [typeof input, string] {
 /**
  * 
  * Encodes data using zero width spaces
- * @param {IDTypes} input Data to encode
+ * @param {Types} input Data to encode
  * @returns {string}
  */
-export function encode(input: IDTypes): string {
+export function encode(input: Types): string {
     const [type, string] = parseType(input);
-    const encodedType = typeMap[type.toString()] || '\u2060';
+    const encodedType = Types[type.toString()] || '\u2060';
 
     const encoded = Array.from(string)
         .map(char => char
