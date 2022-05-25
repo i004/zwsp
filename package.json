@@ -1,0 +1,19 @@
+{
+  "name": "invisible-data",
+  "version": "1.0.0",
+  "description": "Store data using zero width spaces! Might be useful for discord bots.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u1o/invisible-data.git"
+  },
+  "author": "u1o",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u1o/invisible-data/issues"
+  },
+  "homepage": "https://github.com/u1o/invisible-data#readme"
+}
