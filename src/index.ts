@@ -1,3 +1,3 @@
-export * from './zwsp/encode';
-export * from './zwsp/decode';
-export * as constants from './zwsp/constants';
+export * from './lib/encode';
+export * from './lib/decode';
+export * as constants from './lib/constants';
