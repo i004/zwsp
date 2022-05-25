@@ -28,10 +28,10 @@ export function decode(input: string): IDTypes | null {
     if (!match) return null;
 
     const [type, encoded] = [
-        input[0],
-        Array.from(input.slice(1))
-        .map(chr => whitespaces.indexOf(chr))
-        .join('')
+        match[0][0],
+        Array.from(match[0].slice(1))
+             .map(chr => whitespaces.indexOf(chr))
+             .join('')
     ];
 
     const chars = encoded.match(/.{1,4}/g);

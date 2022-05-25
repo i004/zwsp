@@ -6,7 +6,10 @@ import {
 
 function parseType(input: IDTypes): [typeof input, string] {
     if (typeof input == 'object')
-        return ['object', JSON.stringify(input)];
+        return [
+            'object',
+            JSON.stringify(input)
+        ];
 
     return [
         typeof input,
