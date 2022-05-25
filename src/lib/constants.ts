@@ -9,4 +9,4 @@ export const Types = {
 };
 
 export const whitespaces = ['\u200B', '\u200C', '\u200D', '\u2060', '\uFEFF'];
-export const regex = /[\u200B\u200C\u200D\u2060\uFEFF][\u180E\u200B\u200C\u200D\u2060\uFEFF]{4,}/;
+export const regex = /[\u200B\u200C\u200D\u2060\uFEFF][\u200B\u200C\u200D\u2060\uFEFF]{4,}/;
