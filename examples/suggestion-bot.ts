@@ -1,5 +1,5 @@
 import { Client, Intents, TextChannel } from 'discord.js';
-import { encode, decode } from 'invisible-data';
+import { encode, decode } from 'zwsp';
 
 const client = new Client({
 	intents: [ Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES ]

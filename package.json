@@ -1,5 +1,5 @@
 {
-  "name": "invisible-data",
+  "name": "zwsp",
   "version": "1.0.0",
   "description": "Store data using zero width spaces! Might be useful for discord bots.",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/u1o/invisible-data.git"
+    "url": "git+https://github.com/u1o/zwsp.git"
   },
   "author": "u1o",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/u1o/invisible-data/issues"
+    "url": "https://github.com/u1o/zwsp/issues"
   },
-  "homepage": "https://github.com/u1o/invisible-data#readme"
+  "homepage": "https://github.com/u1o/zwsp#readme"
 }

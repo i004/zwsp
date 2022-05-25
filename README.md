@@ -1,14 +1,14 @@
-# InvisibleData
+# ZWSP
 
-Store data using zero width spaces! Might be useful for discord bots. 
+Store data using zero width spaces! Might be useful for discord bots.
 
 ---
 ### Usage
 Import the library:
 ```typescript
-import { encode, decode} from 'invisible-data'; // typescript
+import { encode, decode} from 'zwsp'; // typescript
 
-const { encode, decode } = require('invisible-data'); // node.js
+const { encode, decode } = require('zwsp'); // node.js
 ```
 Encoding:
 ```typescript
