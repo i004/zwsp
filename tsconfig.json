@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "rootDir": "./src",
-        "outDir": "./build"
+        "outDir": "./dist",
+        "declaration": true
     },
     "exclude": [ "examples" ]
 }
