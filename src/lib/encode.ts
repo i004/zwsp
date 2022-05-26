@@ -30,7 +30,7 @@ export function encode(input: Types): string {
         .map(char => char
             .charCodeAt(0)
             .toString(whitespaces.length)
-            .padStart(4, '0')
+            .padStart(6, '0')
         )
         .join('');
 

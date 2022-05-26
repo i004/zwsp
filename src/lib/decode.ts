@@ -33,7 +33,7 @@ export function decode(input: string): Types | null {
              .join('')
     ];
 
-    const chars = encoded.match(/.{1,4}/g);
+    const chars = encoded.match(/.{1,6}/g);
     const decoded = chars.map(char => String.fromCharCode(parseInt(char, whitespaces.length))).join('');
 
     return convertType(decoded, type);
