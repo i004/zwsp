@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/u1o/zwsp.git"
+    "url": "git+https://github.com/i004/zwsp.git"
   },
-  "author": "u1o",
+  "author": "i004",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/u1o/zwsp/issues"
+    "url": "https://github.com/i004/zwsp/issues"
   },
-  "homepage": "https://github.com/u1o/zwsp#readme"
+  "homepage": "https://github.com/i004/zwsp#readme"
 }
